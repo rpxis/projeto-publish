@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: rgb(0, 0, 27);
+}
+
+.logo {
+    position: absolute;
+    left: 108px;
+    top: 30px;
+}
+
+
+.publi {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 690px;
+    top: 200px;
+    padding-left: 120px;
+}
+
+h1 {
+    position: relative;
+   
+    font-size: 35px;
+    margin-top: 50px;
+    color: rgb(0, 255, 221);
+    font-weight: 100;
+}
+
+span {
+    color: white;
+}
+
+.text {
+    position: relative;
+    ;
+    flex-wrap: wrap;
+    width: 350px;
+    
+    margin-top: 20px;
+}
+
+p {
+    color: rgb(161, 161, 161);
+    font-weight: 200;
+
+    font-size: 15px;
+}
+
+.button {
+    position: relative;
+    margin-top: 45px;
+}
+
+.email {
+    width: 400px;
+    padding: 18px;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(68, 68, 68);
+}
+
+.email::placeholder {
+    color:  rgb(161, 161, 161);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.email:focus, .email::before {
+    border: 0 none;
+    background-color: rgb(68, 68, 68);
+}
+
+.btn {
+    position: relative;
+    right: 158px;
+    width: 150px;
+    border: none;
+    border-radius: 25px;
+    padding: 14px;
+   
+    cursor: pointer;
+    font-weight: 700;
+    background-color: rgb(0, 255, 221);
+}
+
+.btn:hover {
+    background-color:  rgb(1, 168, 146);
+}
